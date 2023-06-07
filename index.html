@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Libreria Digital</title>
+</head>
+<body>
+    <h1>Libreria Digital</h1>
+    <div>
+        <h2>Agregar al Carrito</h2>
+        <label for="libros">Libro:</label>
+        <select id="libros"></select>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad">
+        <button id="agregarAlCarro">Agregar al carrito</button>
+    </div>
+    <div>
+        <h2>Calcular Precio Total</h2>
+        <button id="calcularPrecioTotal">Calcular Precio Total</button>
+        <p id="precioTotal"></p>
+    </div>
+    <div>
+        <h2>Buscar Producto</h2>
+        <label for="productoBuscado">Producto:</label>
+        <input type="text" id="productoBuscado">
+        <button id="buscarProducto">Buscar Producto</button>
+        <p id="resultadoBusqueda"></p>
+    </div>
+    <div>
+        <h2>Vaciar Carrito</h2>
+        <button id="vaciarCarro">Vaciar Carrito</button>
+    </div>
+    <script src="carroDeCompras/main.js"></script>
+    <script src="carroDeCompras/stock.js"></script>
+</body>
+</html>
+	
